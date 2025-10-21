@@ -1,0 +1,270 @@
+{
+  "repo_notes": [
+    {
+      "content": "Вся документация должна быть на русском языке"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview",
+      "purpose": "Introduce the Mintlify Starter Kit repository, explaining its purpose as a documentation template, its key features, and high-level architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Getting Started",
+      "purpose": "Guide users through initial setup, from installation to first preview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Quickstart Guide",
+      "purpose": "Detailed walkthrough of the quickstart process, including GitHub setup and first deployment",
+      "parent": "Getting Started",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Local Development Workflow",
+      "purpose": "Explain the Mintlify CLI, local preview server, and development best practices",
+      "parent": "Getting Started",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Configuration System",
+      "purpose": "Overview of how configuration works in Mintlify, centered around docs.json",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "docs.json Reference",
+      "purpose": "Comprehensive documentation of the docs.json configuration file structure and all available options",
+      "parent": "Configuration System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Site Settings",
+      "purpose": "Detailed guide to configuring site metadata, colors, branding, and global options",
+      "parent": "Configuration System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Navigation Configuration",
+      "purpose": "Explain how to structure documentation navigation using tabs, groups, and pages",
+      "parent": "Configuration System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Writing Documentation",
+      "purpose": "Overview of content creation in Mintlify using MDX and various content types",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Markdown and MDX Syntax",
+      "purpose": "Document supported Markdown syntax, MDX components, and formatting options",
+      "parent": "Writing Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Code Blocks and Syntax Highlighting",
+      "purpose": "Explain how to display code examples with proper formatting and language highlighting",
+      "parent": "Writing Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Images and Embeds",
+      "purpose": "Guide for adding images, videos, and other embedded content to documentation",
+      "parent": "Writing Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Reusable Snippets",
+      "purpose": "Explain the snippet system for DRY documentation and content reuse",
+      "parent": "Writing Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "AI-Assisted Documentation",
+      "purpose": "Overview of AI integration capabilities and the three supported AI coding assistants",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Cursor Integration",
+      "purpose": "Setup and configuration guide for Cursor AI with project-specific rules",
+      "parent": "AI-Assisted Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Claude Code Integration",
+      "purpose": "Setup and configuration guide for Claude Code CLI with CLAUDE.md",
+      "parent": "AI-Assisted Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Windsurf Integration",
+      "purpose": "Setup and configuration guide for Windsurf with project-specific rules",
+      "parent": "AI-Assisted Documentation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "API Documentation System",
+      "purpose": "Overview of the OpenAPI-based API documentation system",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "OpenAPI Specification",
+      "purpose": "Detailed explanation of the openapi.json file and how it defines API endpoints",
+      "parent": "API Documentation System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "API Endpoints Documentation",
+      "purpose": "Document the example Plant Store API endpoints (GET, POST, DELETE, webhook)",
+      "parent": "API Documentation System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Theming and Visual Assets",
+      "purpose": "Guide to customizing the visual appearance of documentation including logos, colors, and branding",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Logo Configuration",
+      "purpose": "Explain the logo system with light and dark mode variants",
+      "parent": "Theming and Visual Assets",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Favicon and Images",
+      "purpose": "Document favicon setup and image asset management",
+      "parent": "Theming and Visual Assets",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Deployment and Publishing",
+      "purpose": "Explain the deployment pipeline, GitHub integration, and production publishing workflow",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "purpose": "Quick reference materials and additional resources",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Complete docs.json Schema",
+      "purpose": "Full schema reference for all docs.json configuration options",
+      "parent": "Reference",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "License and Legal",
+      "purpose": "Document the MIT License and legal framework for the repository",
+      "parent": "Reference",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
